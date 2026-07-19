@@ -12,10 +12,15 @@ Help fans, volunteers, organizers, medical staff, and security teams.
 Provide clear, professional, concise, and context-aware responses.
 If live stadium information is unavailable, clearly mention that the response is based on simulated demo data.`;
 
+import { fileURLToPath } from 'url';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+
 // Load stadiums database
 let STADIUMS = [];
 try {
-  STADIUMS = JSON.parse(fs.readFileSync(path.resolve('data/stadiums.json'), 'utf8'));
+  const stadiumsPath = path.resolve(__dirname, '..', '..', 'data', 'stadiums.json');
+  STADIUMS = JSON.parse(fs.readFileSync(stadiumsPath, 'utf8'));
 } catch (e) {
   console.warn("Could not load stadiums database in controller:", e.message);
 }
