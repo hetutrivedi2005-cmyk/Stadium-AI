@@ -223,6 +223,7 @@ classDiagram
     Stadium "1" --> "many" VolunteerTask : tasks
     Stadium "1" --> "many" Prediction : telemetry
     Stadium "1" --> "1" WeatherCache : updates
+```
 
 ---
 
