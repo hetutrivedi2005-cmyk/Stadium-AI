@@ -58,6 +58,226 @@ stadium/
 
 ---
 
+## 📊 System Design & Class Diagram
+
+### 🧱 System Architecture
+
+```mermaid
+graph TD
+    subgraph Client ["Client (Frontend)"]
+        UI["StadiumAI UI (HTML/CSS/JS)"]
+        Three["Three.js (3D Stadium Visualization)"]
+        FB_Auth["Firebase Authentication (Client-side)"]
+    end
+
+    subgraph Server ["Server (Express Backend)"]
+        Router["Express Router (12 Route Groups)"]
+        Controllers["Controllers (CRUD + Business Logic)"]
+        AI_Controller["AI Controller (Gemini Integration)"]
+        Mongoose["Mongoose ORM Layer"]
+        Services["API Services (Weather, News, Football)"]
+    end
+
+    subgraph External ["External Services"]
+        Gemini["Google Gemini AI API"]
+        WeatherAPI["OpenWeatherMap API"]
+        FootballAPI["Football-Data.org API"]
+        NewsAPI["NewsAPI.org API"]
+    end
+
+    subgraph DB ["Database (Persistence)"]
+        Atlas["MongoDB Atlas Cloud Database"]
+    end
+
+    UI -->|HTTPS Requests| Router
+    UI -->|Token Authentication| FB_Auth
+    Router --> Controllers
+    Controllers --> Mongoose
+    AI_Controller --> Services
+    AI_Controller -->|AI Prompt generation| Gemini
+    Services --> WeatherAPI
+    Services --> FootballAPI
+    Services --> NewsAPI
+    Mongoose -->|Read/Write Queries| Atlas
+    AI_Controller -->|Non-blocking Auto-saves| Mongoose
+```
+
+### 🗄️ Database Class & Schema Diagram (Mongoose)
+
+```mermaid
+classDiagram
+    class User {
+        +String uid (Firebase UID) [PK]
+        +String email
+        +String name
+        +String role (fan, volunteer, organizer, security, medical-staff, admin, guest)
+        +String photo
+        +String phone
+        +String language
+        +String favoriteTeam
+        +Boolean isActive
+        +Date createdAt
+        +Date updatedAt
+    }
+
+    class Incident {
+        +ObjectId _id [PK]
+        +String title
+        +String description
+        +String severity (LOW, MEDIUM, HIGH, CRITICAL)
+        +String status (open, in-progress, resolved)
+        +String category (security, medical, fire, crowd, facility, transit, weather, other)
+        +String location
+        +String stadium
+        +String reportedBy
+        +Boolean aiGenerated
+        +Object aiPlaybook
+        +Date createdAt
+        +Date updatedAt
+    }
+
+    class Announcement {
+        +ObjectId _id [PK]
+        +String message
+        +String language
+        +Boolean generatedByAI
+        +String createdBy
+        +String priority (normal, high, critical)
+        +String audience (all, volunteers, organizers, security, medical, spectators)
+        +Object translations
+        +String stadium
+        +Boolean isActive
+        +Date createdAt
+        +Date updatedAt
+    }
+
+    class VolunteerTask {
+        +ObjectId _id [PK]
+        +String title
+        +String description
+        +String assignedTo (User UID)
+        +String priority (low, medium, high, critical)
+        +String status (pending, in-progress, completed, cancelled)
+        +String location
+        +String stadium
+        +Date deadline
+        +String aiAdvice
+        +String eta
+        +String distance
+        +String riskLevel (low, medium, high)
+        +Date createdAt
+        +Date updatedAt
+    }
+
+    class Prediction {
+        +ObjectId _id [PK]
+        +String predictionType (crowd-density, egress-flow, incident-risk, weather-impact, other)
+        +Object input
+        +Object output
+        +Number confidence
+        +Boolean generatedByAI
+        +String stadium
+        +String requestedBy
+        +Date createdAt
+        +Date updatedAt
+    }
+
+    class Feedback {
+        +ObjectId _id [PK]
+        +String user (User UID or anonymous)
+        +Number rating (1-5)
+        +String comment
+        +String category (general, navigation, ai-assistant, transit, accessibility, safety, app-performance)
+        +String stadium
+        +Date createdAt
+        +Date updatedAt
+    }
+
+    class ChatHistory {
+        +ObjectId _id [PK]
+        +String userId (User UID or anonymous)
+        +String role
+        +String prompt
+        +String response
+        +String language
+        +String stadium
+        +Object weatherContext
+        +String sessionId
+        +String model
+        +Date createdAt
+        +Date updatedAt
+    }
+
+    class Stadium {
+        +String stadiumId [PK]
+        +String name
+        +String city
+        +String country
+        +Number capacity
+        +String address
+        +Object coordinates
+        +Array gates
+        +Array parking
+        +Array restaurants
+        +Array foodCourts
+        +Array medicalCenters
+        +Array washrooms
+        +Array fanZones
+        +Object transport
+        +Array nearbyHotels
+        +Array nearbyHospitals
+        +Array nearbyPolice
+        +String openingHours
+        +String closingHours
+        +Array images
+        +Boolean isActive
+        +Date createdAt
+        +Date updatedAt
+    }
+
+    class WeatherCache {
+        +String stadium [PK]
+        +Number temperature
+        +Number feelsLike
+        +Number humidity
+        +Number wind
+        +String windDirection
+        +String condition
+        +String conditionDesc
+        +Number uvIndex
+        +Number rainProbability
+        +Number visibility
+        +Number pressure
+        +Number lat
+        +Number lon
+        +Date apiTimestamp
+        +Date cachedAt [TTL Index]
+    }
+
+    class NewsCache {
+        +ObjectId _id [PK]
+        +String title
+        +String source
+        +String description
+        +String url
+        +String urlToImage
+        +String category (football, world-cup, stadium, transport, weather, general)
+        +String query
+        +Date publishedAt
+        +Date cachedAt [TTL Index]
+    }
+
+    User "1" --> "many" VolunteerTask : assigned tasks (uid)
+    User "1" --> "many" Feedback : submits (uid/anonymous)
+    User "1" --> "many" ChatHistory : chats (uid/anonymous)
+    Stadium "1" --> "many" Incident : venues
+    Stadium "1" --> "many" Announcement : locations
+    Stadium "1" --> "many" VolunteerTask : tasks
+    Stadium "1" --> "many" Prediction : telemetry
+    Stadium "1" --> "1" WeatherCache : updates
+
+---
+
 ## 🚀 Quick Start
 
 ### Prerequisites
