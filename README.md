@@ -6,58 +6,6 @@ StadiumAI is a production-ready, AI-powered stadium operations platform built fo
 
 ---
 
-## ✨ Features
-
-| Feature | Description |
-|---|---|
-| 🤖 **AI Assistant** | Gemini-powered chatbot for fans, volunteers, security, and medical staff |
-| 👁️ **Crowd Intelligence** | Real-time crowd density prediction and bottleneck alerts |
-| 🚨 **Incident Command** | AI-generated incident playbooks with volunteer dispatch |
-| 📢 **Multilingual PA** | Translate announcements to EN, ES, FR, HI, AR, JA instantly |
-| 🚌 **Smart Transit** | Live metro, bus, rideshare, and parking coordination |
-| ♿ **Accessibility Hub** | High-contrast mode, audio cues, wheelchair routing |
-| 🌤️ **Live Weather** | Real-time weather via OpenWeatherMap integrated into AI context |
-| 🗺️ **Geolocation** | User-to-stadium distance, nearest gate routing |
-| 📰 **News Feed** | Live FIFA World Cup 2026 news feed |
-| 👤 **Auth & Profiles** | Firebase Authentication with role-based access |
-| 🗄️ **MongoDB Backend** | Full Atlas-connected REST API with 10 data models |
-
----
-
-## 🏗️ Architecture
-
-```
-stadium/
-├── StadiumAI.html          # Single-page frontend (all CSS + HTML)
-├── assets/                 # Images, 3D model, stadium photos
-├── data/                   # Static stadium JSON database
-├── src/
-│   └── main-v2.js          # Frontend JavaScript (tab control, API calls)
-└── server/                 # Node.js + Express backend
-    ├── config/
-    │   └── database.js     # MongoDB Atlas connection (dual-strategy)
-    ├── models/             # 10 Mongoose schemas
-    │   ├── User.js
-    │   ├── Incident.js
-    │   ├── Announcement.js
-    │   ├── VolunteerTask.js
-    │   ├── Prediction.js
-    │   ├── Feedback.js
-    │   ├── ChatHistory.js
-    │   ├── Stadium.js
-    │   ├── WeatherCache.js
-    │   └── NewsCache.js
-    ├── controllers/        # Business logic (one per model + dashboard + AI)
-    ├── routes/             # Express routers (12 route files)
-    ├── middleware/         # errorHandler, asyncWrapper, requestLogger
-    ├── utils/              # responseFormatter, helpers, logger
-    ├── services/           # geminiService, weatherService, footballService, newsService
-    ├── .env.example        # Environment variables template
-    └── index.js            # Server entry point
-```
-
----
-
 ## 📊 System Design & Class Diagram
 
 ### 🧱 System Architecture
@@ -275,6 +223,58 @@ classDiagram
     Stadium "1" --> "many" VolunteerTask : tasks
     Stadium "1" --> "many" Prediction : telemetry
     Stadium "1" --> "1" WeatherCache : updates
+
+---
+
+## ✨ Features
+
+| Feature | Description |
+|---|---|
+| 🤖 **AI Assistant** | Gemini-powered chatbot for fans, volunteers, security, and medical staff |
+| 👁️ **Crowd Intelligence** | Real-time crowd density prediction and bottleneck alerts |
+| 🚨 **Incident Command** | AI-generated incident playbooks with volunteer dispatch |
+| 📢 **Multilingual PA** | Translate announcements to EN, ES, FR, HI, AR, JA instantly |
+| 🚌 **Smart Transit** | Live metro, bus, rideshare, and parking coordination |
+| ♿ **Accessibility Hub** | High-contrast mode, audio cues, wheelchair routing |
+| 🌤️ **Live Weather** | Real-time weather via OpenWeatherMap integrated into AI context |
+| 🗺️ **Geolocation** | User-to-stadium distance, nearest gate routing |
+| 📰 **News Feed** | Live FIFA World Cup 2026 news feed |
+| 👤 **Auth & Profiles** | Firebase Authentication with role-based access |
+| 🗄️ **MongoDB Backend** | Full Atlas-connected REST API with 10 data models |
+
+---
+
+## 🏗️ Architecture
+
+```
+stadium/
+├── StadiumAI.html          # Single-page frontend (all CSS + HTML)
+├── assets/                 # Images, 3D model, stadium photos
+├── data/                   # Static stadium JSON database
+├── src/
+│   └── main-v2.js          # Frontend JavaScript (tab control, API calls)
+└── server/                 # Node.js + Express backend
+    ├── config/
+    │   └── database.js     # MongoDB Atlas connection (dual-strategy)
+    ├── models/             # 10 Mongoose schemas
+    │   ├── User.js
+    │   ├── Incident.js
+    │   ├── Announcement.js
+    │   ├── VolunteerTask.js
+    │   ├── Prediction.js
+    │   ├── Feedback.js
+    │   ├── ChatHistory.js
+    │   ├── Stadium.js
+    │   ├── WeatherCache.js
+    │   └── NewsCache.js
+    ├── controllers/        # Business logic (one per model + dashboard + AI)
+    ├── routes/             # Express routers (12 route files)
+    ├── middleware/         # errorHandler, asyncWrapper, requestLogger
+    ├── utils/              # responseFormatter, helpers, logger
+    ├── services/           # geminiService, weatherService, footballService, newsService
+    ├── .env.example        # Environment variables template
+    └── index.js            # Server entry point
+```
 
 ---
 
