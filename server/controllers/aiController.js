@@ -19,7 +19,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 // Load stadiums database
 let STADIUMS = [];
 try {
-  const stadiumsPath = path.resolve(__dirname, '..', '..', 'data', 'stadiums.json');
+  const stadiumsPath = path.resolve(__dirname, '..', 'data', 'stadiums.json');
   STADIUMS = JSON.parse(fs.readFileSync(stadiumsPath, 'utf8'));
 } catch (e) {
   console.warn("Could not load stadiums database in controller:", e.message);

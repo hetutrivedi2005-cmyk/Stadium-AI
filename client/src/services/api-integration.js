@@ -642,7 +642,7 @@ class ApiIntegration {
 
     try {
       const cacheKey = `weather_data_${venue.stadiumId}`;
-      const url = `http://localhost:3000/api/weather?lat=${venue.latitude}&lon=${venue.longitude}`;
+      const url = `${CONFIG.API_BASE_URL}/weather?lat=${venue.latitude}&lon=${venue.longitude}`;
       // Weather cached for 10 minutes (600,000 ms)
       const data = await this.fetchWithTimeoutAndCache(url, cacheKey, 600000);
       
@@ -671,7 +671,7 @@ class ApiIntegration {
 
     try {
       const cacheKey = 'football_live_matches';
-      const url = 'http://localhost:3000/api/football';
+      const url = `${CONFIG.API_BASE_URL}/football`;
       // Match details cached for 60 seconds
       const data = await this.fetchWithTimeoutAndCache(url, cacheKey, 60000);
       
@@ -704,7 +704,7 @@ class ApiIntegration {
     try {
       const queryInput = document.getElementById('news-search-input')?.value || "";
       const cacheKey = `news_feed_query_${queryInput || 'default'}`;
-      const url = `http://localhost:3000/api/news?q=${encodeURIComponent(queryInput || "FIFA World Cup 2026")}`;
+      const url = `${CONFIG.API_BASE_URL}/news?q=${encodeURIComponent(queryInput || "FIFA World Cup 2026")}`;
       // News cached for 15 minutes (900,000 ms)
       const data = await this.fetchWithTimeoutAndCache(url, cacheKey, 900000);
       

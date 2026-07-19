@@ -245,82 +245,71 @@ classDiagram
 
 ---
 
-## 🏗️ Architecture
+## 🏗️ Reorganized Architecture
 
 ```
-stadium/
-├── StadiumAI.html          # Single-page frontend (all CSS + HTML)
-├── assets/                 # Images, 3D model, stadium photos
-├── data/                   # Static stadium JSON database
-├── src/
-│   └── main-v2.js          # Frontend JavaScript (tab control, API calls)
-└── server/                 # Node.js + Express backend
-    ├── config/
-    │   └── database.js     # MongoDB Atlas connection (dual-strategy)
-    ├── models/             # 10 Mongoose schemas
-    │   ├── User.js
-    │   ├── Incident.js
-    │   ├── Announcement.js
-    │   ├── VolunteerTask.js
-    │   ├── Prediction.js
-    │   ├── Feedback.js
-    │   ├── ChatHistory.js
-    │   ├── Stadium.js
-    │   ├── WeatherCache.js
-    │   └── NewsCache.js
-    ├── controllers/        # Business logic (one per model + dashboard + AI)
-    ├── routes/             # Express routers (12 route files)
-    ├── middleware/         # errorHandler, asyncWrapper, requestLogger
-    ├── utils/              # responseFormatter, helpers, logger
-    ├── services/           # geminiService, weatherService, footballService, newsService
-    ├── .env.example        # Environment variables template
-    └── index.js            # Server entry point
+stadium-ai/
+├── client/                 # Frontend Static Directory (Vercel)
+│   ├── index.html          # Main web application entry point
+│   ├── assets/             # 3D assets and static images
+│   ├── data/               # Static venue JSON database
+│   ├── src/                # Front-end UI and service logic modules
+│   ├── package.json        # Client dependencies & scripts
+│   └── vercel.json         # Vercel static router configurations
+├── server/                 # Express REST API Backend (Render)
+│   ├── config/             # DB configurations
+│   ├── controllers/        # Route controllers
+│   ├── data/               # AI backend local data copies
+│   ├── middleware/         # App middleware
+│   ├── models/             # Mongoose schemas
+│   ├── routes/             # REST route files
+│   ├── services/           # Backend API clients
+│   ├── utils/              # Shared helper functions
+│   ├── index.js            # Main backend entry point
+│   ├── .env.example        # Environment variable sample
+│   └── package.json        # Server configurations
+├── package.json            # Workspace dev scripts (root)
+└── README.md               # Main instructions
 ```
 
 ---
 
-## 🚀 Quick Start
+## 🚀 Local Development
 
-### Prerequisites
-- Node.js v18+
-- MongoDB Atlas account
-- Google Gemini API key
-
-### 1. Clone the repository
+### 1. Install Workspace Dependencies
+Run from the root directory to install client and server packages simultaneously:
 ```bash
-git clone https://github.com/hetutrivedi2005-cmyk/Stadium-AI.git
-cd Stadium-AI
+npm run install-all
 ```
 
-### 2. Set up environment variables
+### 2. Configure Environment Variables
+Create a `.env` file inside the `server/` directory (use `server/.env.example` as a template):
 ```bash
-cd server
-cp .env.example .env
-# Edit .env with your own API keys
+cp server/.env.example server/.env
+# Edit server/.env with your operational credentials
 ```
 
-### 3. Install dependencies
-```bash
-npm install
-```
+### 3. Start Development Servers
+From the root directory:
+*   To run the backend server: `npm run dev`
+*   To run the frontend client: `npm run client`
 
-### 4. Whitelist your IP in MongoDB Atlas
-1. Go to [cloud.mongodb.com](https://cloud.mongodb.com)
-2. **Network Access** → **+ ADD IP ADDRESS** → **ADD CURRENT IP ADDRESS**
-3. Confirm and wait ~30 seconds
+---
 
-### 5. Start the backend server
-```bash
-node index.js
-```
+## ☁️ Production Deployment
 
-### 6. Open the frontend
-Serve `StadiumAI.html` via any static server:
-```bash
-# From the root stadium directory:
-npx serve . -p 8099
-# Then open: http://localhost:8099/StadiumAI.html
-```
+### 🖥️ Frontend (Vercel)
+1.  Connect your GitHub repository to **Vercel**.
+2.  Set the **Root Directory** to `client`.
+3.  Add the optional environment variable `VITE_API_URL` pointing to your deployed Render URL (e.g. `https://your-backend.onrender.com/api`). If omitted, it will dynamically fall back to relative `/api` calls.
+4.  Click **Deploy**. Vercel will host the client statically.
+
+### 📡 Backend (Render)
+1.  Create a new **Web Service** on **Render**.
+2.  Select your repository and set the **Root Directory** to `server`.
+3.  Set the **Start Command** to `npm start`.
+4.  Configure all required environment variables (`MONGODB_URI`, `GEMINI_API_KEY`, etc.) in the Render dashboard settings.
+5.  Click **Deploy**. Render will run the isolated Express REST backend.
 
 ---
 

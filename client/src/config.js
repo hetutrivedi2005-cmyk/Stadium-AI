@@ -3,9 +3,29 @@
  * Decouples API endpoints, credentials, and settings for production backend services.
  */
 
+// Dynamically determine the backend API URL without hardcoding localhost.
+const getApiBaseUrl = () => {
+  if (typeof window !== 'undefined' && window.VITE_API_URL) {
+    return window.VITE_API_URL;
+  }
+  try {
+    if (import.meta.env && import.meta.env.VITE_API_URL) {
+      return import.meta.env.VITE_API_URL;
+    }
+  } catch (e) {}
+  
+  if (typeof window !== 'undefined') {
+    if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+      return 'http://localhost:3000/api';
+    }
+    return window.location.origin + '/api'; // fallback to self-hosted API route
+  }
+  return 'http://localhost:3000/api';
+};
+
 export const CONFIG = {
-  API_BASE_URL: 'http://localhost:3000/api', // REST URL for Express / Node.js
-  WS_BASE_URL: (window.location.protocol === 'https:' ? 'wss:' : 'ws:') + '//' + window.location.host + '/ws', // Real-time telemetry WebSockets
+  API_BASE_URL: getApiBaseUrl(), // REST URL for Express / Node.js
+  WS_BASE_URL: (typeof window !== 'undefined' && window.location.protocol === 'https:' ? 'wss:' : 'ws:') + '//' + (typeof window !== 'undefined' ? window.location.host : 'localhost') + '/ws', // Real-time telemetry WebSockets
   AI_PROVIDER: 'gemini', // 'gemini' | 'openai' | 'mock'
   AI_MODEL: 'gemini-3.5-flash', // Default target LLM
   LATENCY_MS: 400, // Simulated network latency for loading spinner states
