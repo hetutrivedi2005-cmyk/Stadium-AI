@@ -1,0 +1,22 @@
+{
+  "name": "stadium-ai-root",
+  "version": "2.0.0",
+  "description": "FIFA World Cup 2026 Stadium Operations Platform",
+  "private": true,
+  "scripts": {
+    "start": "node server/index.js",
+    "server": "node server/index.js",
+    "frontend": "npx serve . -p 8099",
+    "build": "echo \"Frontend is vanilla HTML/JS/CSS and does not require a build step. Run 'npm start' to start the backend, and 'npm run frontend' to serve the UI.\""
+  },
+  "keywords": [
+    "fifa",
+    "stadium",
+    "operations",
+    "ai",
+    "gemini",
+    "mongodb"
+  ],
+  "author": "",
+  "license": "ISC"
+}
