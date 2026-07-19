@@ -1,0 +1,18 @@
+{
+  "name": "stadiumai-server",
+  "version": "1.0.0",
+  "description": "Google Gemini AI backend for FIFA World Cup 2026 stadium operations",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@google/genai": "latest",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-validator": "^7.3.2",
+    "mongoose": "^9.7.4"
+  }
+}

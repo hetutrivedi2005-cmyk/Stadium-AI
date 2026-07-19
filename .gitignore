@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+server/node_modules/
+
+# Environment variables — NEVER commit secrets
+.env
+server/.env
+*.env
+.env.*
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# Temp / cache
+.cache/
+.temp/
+tmp/
+
+# Lock files (optional — keep package-lock if you want reproducible installs)
+# package-lock.json

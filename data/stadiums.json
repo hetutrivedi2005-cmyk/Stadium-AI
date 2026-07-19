@@ -1,0 +1,1845 @@
+[
+  {
+    "stadiumId": "metlife-stadium",
+    "name": "MetLife Stadium",
+    "city": "East Rutherford",
+    "country": "United States",
+    "capacity": 82500,
+    "latitude": 40.8135,
+    "longitude": -74.0743,
+    "address": "1 MetLife Stadium Dr, East Rutherford, NJ 07073",
+    "description": "Host of the FIFA World Cup 2026 Final. A state-of-the-art multi-purpose stadium just outside New York City.",
+    "homeTeam": "New York Giants / New York Jets",
+    "images": [
+      "public/images/stadiums/metlife-stadium/hero.jpg",
+      "public/images/stadiums/metlife-stadium/gallery-1.jpg",
+      "public/images/stadiums/metlife-stadium/gallery-2.jpg"
+    ],
+    "parking": [
+      "Lot A (North)",
+      "Lot B (West)",
+      "Lot E (South)",
+      "Lot G (East)"
+    ],
+    "restaurants": [
+      "MetLife Grill",
+      "MetLife Club Lounge"
+    ],
+    "foodCourts": [
+      "Concourse Food Court 100",
+      "Concourse Food Court 300"
+    ],
+    "washrooms": [
+      "Near Sec 101",
+      "Near Sec 115",
+      "Near Sec 208",
+      "Near Sec 324"
+    ],
+    "medicalCenters": [
+      "Main Medical Sec 128",
+      "Secondary Medical Sec 305"
+    ],
+    "gates": [
+      "Gate A (East)",
+      "Gate B (South)",
+      "Gate C (West)",
+      "Gate D (North)"
+    ],
+    "vipEntrances": [
+      "Verizon Plaza Entrance",
+      "Bud Light Plaza Entrance"
+    ],
+    "disabledEntrances": [
+      "Gate A Elevators",
+      "Gate C Elevators"
+    ],
+    "accessibleRoutes": [
+      "Ramp East Concourse",
+      "Elevators Core South"
+    ],
+    "nearestMetro": "Meadowlands Station",
+    "nearestBusStop": "MetLife Stadium Bus Stop Lot K",
+    "nearestAirport": "Newark Liberty International Airport (EWR)",
+    "emergencyExits": [
+      "Corridor A",
+      "Corridor B",
+      "Corridor C",
+      "Corridor D"
+    ],
+    "securityCheckpoints": [
+      "Checkpoint 1 (North Concourse)",
+      "Checkpoint 2 (South Plaza)"
+    ],
+    "fanZones": [
+      "MetLife Central Plaza",
+      "Fan Zone East Concourse"
+    ],
+    "merchandiseStores": [
+      "Giants/Jets Flagship Store",
+      "World Cup Official Shop Sec 112"
+    ],
+    "chargingStations": [
+      "Verizon Charging Bar Sec 103",
+      "Mobile Charging Sec 218"
+    ],
+    "wifiAvailability": "MetLife Stadium Free WiFi",
+    "openingHours": "17:00",
+    "closingHours": "23:30",
+    "contactInformation": "+1-201-559-1515, info@metlifestadium.com",
+    "locationReference": "https://www.google.com/maps/place/MetLife+Stadium/@40.8135,-74.0743",
+    "nearbyHotels": [
+      "Hilton Meadowlands",
+      "Sheraton Meadowlands"
+    ],
+    "nearbyAttractions": [
+      "American Dream Mall",
+      "Meadowlands Racetrack"
+    ],
+    "nearbyRestaurants": [
+      "Lupardi's Deli",
+      "Yard House"
+    ],
+    "nearbyHospitals": [
+      "Hackensack University Medical Center"
+    ],
+    "nearbyPoliceStation": [
+      "NJ State Police Meadowlands Station"
+    ],
+    "nearbyPublicTransport": [
+      "NJ Transit Bus 351"
+    ]
+  },
+  {
+    "stadiumId": "sofi-stadium",
+    "name": "SoFi Stadium",
+    "city": "Inglewood",
+    "country": "United States",
+    "capacity": 70240,
+    "latitude": 33.9534,
+    "longitude": -118.3387,
+    "address": "1001 Stadium Dr, Inglewood, CA 90301",
+    "description": "An architectural marvel in Southern California featuring a translucent canopy cover and the massive Infinity Screen.",
+    "homeTeam": "Los Angeles Rams / Los Angeles Chargers",
+    "images": [
+      "public/images/stadiums/sofi-stadium/hero.jpg",
+      "public/images/stadiums/sofi-stadium/gallery-1.jpg",
+      "public/images/stadiums/sofi-stadium/gallery-2.jpg"
+    ],
+    "parking": [
+      "Brown Zone",
+      "Blue Zone",
+      "Green Zone",
+      "Orange Zone"
+    ],
+    "restaurants": [
+      "Pechanga Club Lounge",
+      "Corona Beach House"
+    ],
+    "foodCourts": [
+      "Canyon Food Court Level 2",
+      "Plaza Level Grills"
+    ],
+    "washrooms": [
+      "Near Sec 120",
+      "Near Sec 240",
+      "Near Sec 305",
+      "Near Sec 410"
+    ],
+    "medicalCenters": [
+      "First Aid Level 1 Plaza",
+      "First Aid Upper Concourse"
+    ],
+    "gates": [
+      "Entry 1 (North)",
+      "Entry 5 (South)",
+      "Entry 8 (West)",
+      "Entry 11 (East)"
+    ],
+    "vipEntrances": [
+      "VIP Lobby North",
+      "VIP Lobby South"
+    ],
+    "disabledEntrances": [
+      "Entry 1 Ramp",
+      "Entry 5 Elevators"
+    ],
+    "accessibleRoutes": [
+      "Canyon West ADA Ramp",
+      "East Lift Core"
+    ],
+    "nearestMetro": "Downtown Inglewood Station (K Line)",
+    "nearestBusStop": "Inglewood Transit Center Bus Stop",
+    "nearestAirport": "Los Angeles International Airport (LAX)",
+    "emergencyExits": [
+      "Exit Tunnel 1",
+      "Exit Tunnel 4",
+      "Exit Tunnel 7"
+    ],
+    "securityCheckpoints": [
+      "North Canopy Gates Security",
+      "South Canopy Security"
+    ],
+    "fanZones": [
+      "American Airlines Plaza",
+      "Rivers Lake Promenade"
+    ],
+    "merchandiseStores": [
+      "The Equipment Room Team Store",
+      "SoFi World Cup Kiosk Sec 120"
+    ],
+    "chargingStations": [
+      "Samsung Charging Pods Sec 108",
+      "Level 4 Guest Hub"
+    ],
+    "wifiAvailability": "SoFi Stadium Guest WiFi",
+    "openingHours": "17:00",
+    "closingHours": "23:30",
+    "contactInformation": "+1-424-306-8000, guestservices@sofistadium.com",
+    "locationReference": "https://www.google.com/maps/place/SoFi+Stadium/@33.9534,-118.3387",
+    "nearbyHotels": [
+      "Sonder Lüm",
+      "Hilton Los Angeles Airport"
+    ],
+    "nearbyAttractions": [
+      "YouTube Theater",
+      "Hollywood Park Casino"
+    ],
+    "nearbyRestaurants": [
+      "Roscoe's House of Chicken and Waffles",
+      "In-N-Out Burger"
+    ],
+    "nearbyHospitals": [
+      "Centinela Hospital Medical Center"
+    ],
+    "nearbyPoliceStation": [
+      "Inglewood Police Department"
+    ],
+    "nearbyPublicTransport": [
+      "LA Metro Bus Line 117"
+    ]
+  },
+  {
+    "stadiumId": "estadio-azteca",
+    "name": "Estadio Azteca",
+    "city": "Mexico City",
+    "country": "Mexico",
+    "capacity": 87523,
+    "latitude": 19.3029,
+    "longitude": -99.1505,
+    "address": "Calz. de Tlalpan 3465, Santa Ursula Coapa, Coyoacan, 04650 Ciudad de Mexico",
+    "description": "The historic cathedral of North American football, host of the opening match of the FIFA World Cup 2026.",
+    "homeTeam": "Club América / Mexico National Football Team",
+    "images": [
+      "public/images/stadiums/estadio-azteca/hero.jpg",
+      "public/images/stadiums/estadio-azteca/gallery-1.jpg",
+      "public/images/stadiums/estadio-azteca/gallery-2.jpg"
+    ],
+    "parking": [
+      "Estacionamiento General Norte",
+      "Estacionamiento General Sur",
+      "VIP Preferente"
+    ],
+    "restaurants": [
+      "Restaurante Estadio Azteca Corona",
+      "Palcos Club Grill"
+    ],
+    "foodCourts": [
+      "Zócalo de Comida Rápida Nivel 100",
+      "Food Court Consecuto Este"
+    ],
+    "washrooms": [
+      "Túnel 8 Baños",
+      "Sección 120 Baños",
+      "Nivel 300 Baños"
+    ],
+    "medicalCenters": [
+      "Centro de Urgencias Médicas Puerta 1",
+      "Puesto de Socorro Sección 210"
+    ],
+    "gates": [
+      "Puerta 1 (Principal)",
+      "Puerta 3 (Estacionamiento)",
+      "Puerta 7 (Norte)",
+      "Puerta 9 (Sur)"
+    ],
+    "vipEntrances": [
+      "Acceso Preferente Palcos Norte",
+      "Acceso Especial Palcos Sur"
+    ],
+    "disabledEntrances": [
+      "Acceso Especial Elevador Puerta 1",
+      "Rampa Acceso Discapacitados Sur"
+    ],
+    "accessibleRoutes": [
+      "Rampa de Acceso General Este",
+      "Elevadores de Prensa y VIP"
+    ],
+    "nearestMetro": "Estación Estadio Azteca (Tren Ligero)",
+    "nearestBusStop": "Parada de Autobuses Calz. de Tlalpan",
+    "nearestAirport": "Aeropuerto Internacional de la Ciudad de México (MEX)",
+    "emergencyExits": [
+      "Túnel de Emergencia Norte",
+      "Túnel de Emergencia Sur",
+      "Salidas Rampas Centrales"
+    ],
+    "securityCheckpoints": [
+      "Filtro de Seguridad Calzada de Tlalpan",
+      "Filtro Acceso General Principal"
+    ],
+    "fanZones": [
+      "Explanada Principal Puerta 1",
+      "Zona Fan Nivel 200"
+    ],
+    "merchandiseStores": [
+      "Tienda Oficial Club América",
+      "FIFA Store Azteca Explanada"
+    ],
+    "chargingStations": [
+      "Kiosko de Recarga Puerta 1",
+      "Estación de Energía Palcos Centrales"
+    ],
+    "wifiAvailability": "Infinitum Móvil Azteca Gratis",
+    "openingHours": "17:00",
+    "closingHours": "23:30",
+    "contactInformation": "+52-55-5487-3100, contacto@estadioazteca.com.mx",
+    "locationReference": "https://www.google.com/maps/place/Estadio+Azteca/@19.3029,-99.1505",
+    "nearbyHotels": [
+      "Holiday Inn Plaza Universidad",
+      "Radisson Paraiso Perisur"
+    ],
+    "nearbyAttractions": [
+      "Coyoacán Centro",
+      "Zona Arqueológica Cuicuilco"
+    ],
+    "nearbyRestaurants": [
+      "El Cardenal",
+      "Café El Jarocho"
+    ],
+    "nearbyHospitals": [
+      "Hospital Médica Sur"
+    ],
+    "nearbyPoliceStation": [
+      "Módulo de Seguridad Pública Coyoacán"
+    ],
+    "nearbyPublicTransport": [
+      "RTP Ruta 134-C"
+    ]
+  },
+  {
+    "stadiumId": "munich-bay",
+    "name": "Munich Bay Stadium",
+    "city": "Munich",
+    "country": "Germany",
+    "capacity": 75000,
+    "latitude": 48.2188,
+    "longitude": 11.6247,
+    "address": "Werner-Heisenberg-Allee 25, 80939 München",
+    "description": "An iconic venue with a dynamic illuminated exterior casing, serving as the European Operations model.",
+    "homeTeam": "FC Bayern München",
+    "images": [
+      "public/images/stadiums/munich-bay/hero.jpg",
+      "public/images/stadiums/munich-bay/gallery-1.jpg",
+      "public/images/stadiums/munich-bay/gallery-2.jpg"
+    ],
+    "parking": [
+      "Parkhaus P1",
+      "Parkhaus P2",
+      "Parkhaus P3",
+      "Gästebusparkplatz"
+    ],
+    "restaurants": [
+      "Allianz Arena Bistro",
+      "Paulaner Fan-Treff"
+    ],
+    "foodCourts": [
+      "Kiosk Ebene 2 Nord",
+      "Kiosk Ebene 6 Süd"
+    ],
+    "washrooms": [
+      "Block 112 WC",
+      "Block 218 WC",
+      "Block 310 WC"
+    ],
+    "medicalCenters": [
+      "Sanitätsstation Nord",
+      "Sanitätsstation Süd"
+    ],
+    "gates": [
+      "Kassenhaus Nord",
+      "Kassenhaus Süd",
+      "Eingang Ost",
+      "Eingang West"
+    ],
+    "vipEntrances": [
+      "VIP Eingang West",
+      "VIP Lounge Eingang Nord"
+    ],
+    "disabledEntrances": [
+      "Eingang West Aufzüge",
+      "Eingang Ost Aufzüge"
+    ],
+    "accessibleRoutes": [
+      "ADA Rampen Nordtribüne",
+      "Aufzugskern Haupttribüne"
+    ],
+    "nearestMetro": "Fröttmaning U-Bahn Station (U6)",
+    "nearestBusStop": "Fröttmaning Busbahnhof",
+    "nearestAirport": "Munich International Airport (MUC)",
+    "emergencyExits": [
+      "Notausgang Nordost",
+      "Notausgang Südwest",
+      "Sicherheitstunnel Ost"
+    ],
+    "securityCheckpoints": [
+      "Sicherheitskontrolle Nord",
+      "Sicherheitskontrolle Süd"
+    ],
+    "fanZones": [
+      "Esplanade Allianz Arena",
+      "FC Bayern Museum"
+    ],
+    "merchandiseStores": [
+      "FC Bayern Megastore Nivel 3",
+      "Official World Cup Store Sec 204"
+    ],
+    "chargingStations": [
+      "E-Bike Ladestationen Parkhaus 1",
+      "Handy Ladestationen Ebene 2"
+    ],
+    "wifiAvailability": "Allianz Arena Free WiFi",
+    "openingHours": "17:00",
+    "closingHours": "23:30",
+    "contactInformation": "+49-89-69931-2222, info@allianz-arena.com",
+    "locationReference": "https://www.google.com/maps/place/Allianz+Arena/@48.2188,11.6247",
+    "nearbyHotels": [
+      "Arena Stadt München Hotel",
+      "AMEDIA Hotel München"
+    ],
+    "nearbyAttractions": [
+      "Deutsches Museum",
+      "Marienplatz"
+    ],
+    "nearbyRestaurants": [
+      "Gasthof Garching",
+      "Biergarten Fröttmaning"
+    ],
+    "nearbyHospitals": [
+      "Klinikum Bogenhausen"
+    ],
+    "nearbyPoliceStation": [
+      "Polizeiinspektion 47 Milbertshofen"
+    ],
+    "nearbyPublicTransport": [
+      "MVV U-Bahn Linie U6"
+    ]
+  },
+  {
+    "stadiumId": "forza-d-attica",
+    "name": "Forza d'Attica",
+    "city": "Athens",
+    "country": "Greece",
+    "capacity": 69618,
+    "latitude": 37.9838,
+    "longitude": 23.7275,
+    "address": "Marousi 151 23, Athens, Greece",
+    "description": "The historic Olympic stadium of Athens, integrated as a Mediterranean training hub.",
+    "homeTeam": "Panathinaikos / AEK Athens",
+    "images": [
+      "public/images/stadiums/forza-d-attica/hero.jpg",
+      "public/images/stadiums/forza-d-attica/gallery-1.jpg",
+      "public/images/stadiums/forza-d-attica/gallery-2.jpg"
+    ],
+    "parking": [
+      "North Parking Deck",
+      "East Fan Lot"
+    ],
+    "restaurants": [
+      "Athenian Grill",
+      "Acropolis View Diner"
+    ],
+    "foodCourts": [
+      "Concourse B Fast Food"
+    ],
+    "washrooms": [
+      "Sec 10 WC",
+      "Sec 45 WC"
+    ],
+    "medicalCenters": [
+      "First Aid Station Olympic Circle"
+    ],
+    "gates": [
+      "Gate 1 (North)",
+      "Gate 35 (Süd)"
+    ],
+    "vipEntrances": [
+      "Olympic VIP Suite Entrance"
+    ],
+    "disabledEntrances": [
+      "Gate 1 Ramps"
+    ],
+    "accessibleRoutes": [
+      "Avenue ADA Walkway"
+    ],
+    "nearestMetro": "Eirini Metro Station",
+    "nearestBusStop": "Olympic Stadium Bus Station",
+    "nearestAirport": "Athens International Airport (ATH)",
+    "emergencyExits": [
+      "Main Exit Tunnel A",
+      "Tunnel D"
+    ],
+    "securityCheckpoints": [
+      "Perimeter Checkpoint Marousi"
+    ],
+    "fanZones": [
+      "Agora Fan Village"
+    ],
+    "merchandiseStores": [
+      "Olympic Fan Shop"
+    ],
+    "chargingStations": [
+      "Power Banks Concourse A"
+    ],
+    "wifiAvailability": "Olympic WiFi Free",
+    "openingHours": "17:00",
+    "closingHours": "23:30",
+    "contactInformation": "+30-210-6834060, info@oaka.com.gr",
+    "locationReference": "https://www.google.com/maps/place/Athens+Olympic+Stadium/@37.9838,23.7275",
+    "nearbyHotels": [
+      "Civitel Olympic",
+      "President Hotel"
+    ],
+    "nearbyAttractions": [
+      "Acropolis of Athens",
+      "Plaka District"
+    ],
+    "nearbyRestaurants": [
+      "Oasis Cafe",
+      "Marousi Taverna"
+    ],
+    "nearbyHospitals": [
+      "Hygeia Hospital"
+    ],
+    "nearbyPoliceStation": [
+      "Marousi Police Station"
+    ],
+    "nearbyPublicTransport": [
+      "Line 1 Metro"
+    ]
+  },
+  {
+    "stadiumId": "bc-place",
+    "name": "BC Place",
+    "city": "Vancouver",
+    "country": "Canada",
+    "capacity": 54500,
+    "latitude": 49.2768,
+    "longitude": -123.112,
+    "address": "777 Pacific Blvd, Vancouver, BC V6B 4Y8",
+    "description": "A premier stadium in downtown Vancouver featuring the largest cable-supported retractable roof in the world.",
+    "homeTeam": "Vancouver Whitecaps FC",
+    "images": [
+      "public/images/stadiums/bc-place/hero.jpg",
+      "public/images/stadiums/bc-place/gallery-1.jpg",
+      "public/images/stadiums/bc-place/gallery-2.jpg"
+    ],
+    "parking": [
+      "Lot 457",
+      "Lot 16"
+    ],
+    "restaurants": [
+      "The Playwright Club",
+      "BC Concessions"
+    ],
+    "foodCourts": [
+      "Food Court Level 2"
+    ],
+    "washrooms": [
+      "Sec 204 WC",
+      "Sec 228 WC"
+    ],
+    "medicalCenters": [
+      "First Aid Room Sec 217"
+    ],
+    "gates": [
+      "Gate A (Robson St)",
+      "Gate C (Pacific Blvd)",
+      "Gate H (Beatty St)"
+    ],
+    "vipEntrances": [
+      "Edgewater VIP Lounge Entrance"
+    ],
+    "disabledEntrances": [
+      "Gate C Elevators"
+    ],
+    "accessibleRoutes": [
+      "Robson Rampway"
+    ],
+    "nearestMetro": "Stadium-Chinatown SkyTrain Station",
+    "nearestBusStop": "Pacific Blvd Bus stop",
+    "nearestAirport": "Vancouver International Airport (YVR)",
+    "emergencyExits": [
+      "Exit A Robson",
+      "Exit B Expo Blvd"
+    ],
+    "securityCheckpoints": [
+      "Robson Plaza Security",
+      "Terry Fox Plaza Security"
+    ],
+    "fanZones": [
+      "Robson Plaza Fan Village"
+    ],
+    "merchandiseStores": [
+      "Whitecaps Team Store",
+      "Vancouver 2026 Kiosk"
+    ],
+    "chargingStations": [
+      "Telus Power Charging Hubs"
+    ],
+    "wifiAvailability": "#BCPlaceFreeWifi",
+    "openingHours": "17:00",
+    "closingHours": "23:30",
+    "contactInformation": "+1-604-669-2300, guestservices@bcplace.com",
+    "locationReference": "https://www.google.com/maps/place/BC+Place/@49.2768,-123.1120",
+    "nearbyHotels": [
+      "Georgian Court Hotel",
+      "Sandman Signatures"
+    ],
+    "nearbyAttractions": [
+      "Science World",
+      "Gastown"
+    ],
+    "nearbyRestaurants": [
+      "Frankie's Italian",
+      "Devil's Elbow"
+    ],
+    "nearbyHospitals": [
+      "St. Paul's Hospital"
+    ],
+    "nearbyPoliceStation": [
+      "VPD Headquarters"
+    ],
+    "nearbyPublicTransport": [
+      "SkyTrain Expo Line"
+    ]
+  },
+  {
+    "stadiumId": "bmo-field",
+    "name": "BMO Field",
+    "city": "Toronto",
+    "country": "Canada",
+    "capacity": 45736,
+    "latitude": 43.6328,
+    "longitude": -79.4186,
+    "address": "170 Princes' Blvd, Toronto, ON M6K 3C3",
+    "description": "Canada's national soccer stadium situated at Exhibition Place in Toronto.",
+    "homeTeam": "Toronto FC",
+    "images": [
+      "public/images/stadiums/bmo-field/hero.jpg",
+      "public/images/stadiums/bmo-field/gallery-1.jpg",
+      "public/images/stadiums/bmo-field/gallery-2.jpg"
+    ],
+    "parking": [
+      "Exhibition Place Lot 2",
+      "Ontario Place Parking"
+    ],
+    "restaurants": [
+      "Real Sports Grill Express",
+      "BMO Club Lounge"
+    ],
+    "foodCourts": [
+      "Food Court East Concourse"
+    ],
+    "washrooms": [
+      "Sec 107 WC",
+      "Sec 122 WC"
+    ],
+    "medicalCenters": [
+      "First Aid Station Sec 109"
+    ],
+    "gates": [
+      "Gate 1 (North)",
+      "Gate 3 (West)",
+      "Gate 5 (South)"
+    ],
+    "vipEntrances": [
+      "Princes' Gate VIP Entrance"
+    ],
+    "disabledEntrances": [
+      "Gate 1 ADA Access"
+    ],
+    "accessibleRoutes": [
+      "West Stand Elevator Core"
+    ],
+    "nearestMetro": "Exhibition GO Station",
+    "nearestBusStop": "Manitoba Dr Bus Loop",
+    "nearestAirport": "Billy Bishop Toronto City Airport (YTZ)",
+    "emergencyExits": [
+      "Exit Gate 2B",
+      "Exit Gate 4"
+    ],
+    "securityCheckpoints": [
+      "North Gate Security Hub",
+      "South Concourse Checkpoint"
+    ],
+    "fanZones": [
+      "Princes' Boulevard Fan Village"
+    ],
+    "merchandiseStores": [
+      "Real Sports Apparel Store"
+    ],
+    "chargingStations": [
+      "Rogers Charging Kiosks"
+    ],
+    "wifiAvailability": "BMOFieldFreeGuest",
+    "openingHours": "17:00",
+    "closingHours": "23:30",
+    "contactInformation": "+1-416-815-5700, BMOFieldService@mlse.com",
+    "locationReference": "https://www.google.com/maps/place/BMO+Field/@43.6328,-79.4186",
+    "nearbyHotels": [
+      "Hotel X Toronto",
+      "Gladstone House"
+    ],
+    "nearbyAttractions": [
+      "CN Tower",
+      "Ontario Place"
+    ],
+    "nearbyRestaurants": [
+      "The Drake Hotel Restaurant",
+      "Mildred's Temple"
+    ],
+    "nearbyHospitals": [
+      "Toronto Western Hospital"
+    ],
+    "nearbyPoliceStation": [
+      "TPS 14 Division"
+    ],
+    "nearbyPublicTransport": [
+      "TTC 509 Harbourfront Streetcar"
+    ]
+  },
+  {
+    "stadiumId": "mercedes-benz-stadium",
+    "name": "Mercedes-Benz Stadium",
+    "city": "Atlanta",
+    "country": "United States",
+    "capacity": 71000,
+    "latitude": 33.7553,
+    "longitude": -84.4006,
+    "address": "1 AMB Dr NW, Atlanta, GA 30313",
+    "description": "An innovative retractable roof stadium featuring the massive 360-degree Halo Video Board.",
+    "homeTeam": "Atlanta United FC",
+    "images": [
+      "public/images/stadiums/mercedes-benz-stadium/hero.jpg",
+      "public/images/stadiums/mercedes-benz-stadium/gallery-1.jpg",
+      "public/images/stadiums/mercedes-benz-stadium/gallery-2.jpg"
+    ],
+    "parking": [
+      "Red Deck",
+      "Silver Deck",
+      "Blue Lot"
+    ],
+    "restaurants": [
+      "Molly B's Cookhouse",
+      "Mercedes-Benz Club"
+    ],
+    "foodCourts": [
+      "Concourse Food Hub 100",
+      "Concourse Food Hub 300"
+    ],
+    "washrooms": [
+      "Near Sec 102",
+      "Near Sec 121",
+      "Near Sec 209",
+      "Near Sec 315"
+    ],
+    "medicalCenters": [
+      "First Aid Sec 114",
+      "First Aid Sec 226"
+    ],
+    "gates": [
+      "Gate 1 (North)",
+      "Gate 2 (West)",
+      "Gate 3 (East)",
+      "Gate 4 (South)"
+    ],
+    "vipEntrances": [
+      "Delta Sky360 Club Entrance"
+    ],
+    "disabledEntrances": [
+      "Gate 1 ADA Ramp",
+      "Gate 2 Elevators"
+    ],
+    "accessibleRoutes": [
+      "Main Concourse ADA Corridor"
+    ],
+    "nearestMetro": "GWCC/CNN Center MARTA Station",
+    "nearestBusStop": "Northside Dr Bus Stop",
+    "nearestAirport": "Hartsfield-Jackson Atlanta International Airport (ATL)",
+    "emergencyExits": [
+      "Main North Exit",
+      "Main South Exit"
+    ],
+    "securityCheckpoints": [
+      "Gate 1 security clearance",
+      "Gate 2 security clearance"
+    ],
+    "fanZones": [
+      "The Backyard Plaza"
+    ],
+    "merchandiseStores": [
+      "MBS Team Store",
+      "World Cup Shop Atlanta"
+    ],
+    "chargingStations": [
+      "AT&T Charging Stations Sec 102"
+    ],
+    "wifiAvailability": "MBS Free WiFi",
+    "openingHours": "17:00",
+    "closingHours": "23:30",
+    "contactInformation": "+1-404-341-7500, info@mercedesbenzstadium.com",
+    "locationReference": "https://www.google.com/maps/place/Mercedes-Benz+Stadium/@33.7553,-84.4006",
+    "nearbyHotels": [
+      "Omni Atlanta Hotel",
+      "Reverb by Hard Rock"
+    ],
+    "nearbyAttractions": [
+      "Georgia Aquarium",
+      "World of Coca-Cola"
+    ],
+    "nearbyRestaurants": [
+      "Stats Brewpub",
+      "Der Biergarten"
+    ],
+    "nearbyHospitals": [
+      "Grady Memorial Hospital"
+    ],
+    "nearbyPoliceStation": [
+      "APD Zone 5 Precinct"
+    ],
+    "nearbyPublicTransport": [
+      "MARTA Blue/Green Line"
+    ]
+  },
+  {
+    "stadiumId": "gillette-stadium",
+    "name": "Gillette Stadium",
+    "city": "Boston (Foxborough)",
+    "country": "United States",
+    "capacity": 65878,
+    "latitude": 42.0909,
+    "longitude": -71.2643,
+    "address": "1 Patriot Pl, Foxborough, MA 02035",
+    "description": "New England's premier sports venue, located in Foxborough, MA.",
+    "homeTeam": "New England Revolution",
+    "images": [
+      "public/images/stadiums/gillette-stadium/hero.jpg",
+      "public/images/stadiums/gillette-stadium/gallery-1.jpg",
+      "public/images/stadiums/gillette-stadium/gallery-2.jpg"
+    ],
+    "parking": [
+      "Lot 3 (North)",
+      "Lot 6 (East)",
+      "Lot 22 (West)"
+    ],
+    "restaurants": [
+      "Davio's Northern Italian",
+      "Twenty Eight Atlantic"
+    ],
+    "foodCourts": [
+      "Gillette Marketplace Level 1"
+    ],
+    "washrooms": [
+      "Sec 104 WC",
+      "Sec 132 WC",
+      "Sec 312 WC"
+    ],
+    "medicalCenters": [
+      "First Aid Sec 108",
+      "First Aid Sec 318"
+    ],
+    "gates": [
+      "Enel Plaza Gate",
+      "Gillette Gate",
+      "Patriot Place Gate"
+    ],
+    "vipEntrances": [
+      "Putnam Club Entrance East",
+      "Putnam Club Entrance West"
+    ],
+    "disabledEntrances": [
+      "Enel Plaza Elevators"
+    ],
+    "accessibleRoutes": [
+      "West Ramp ADA Path"
+    ],
+    "nearestMetro": "Foxboro MBTA Station",
+    "nearestBusStop": "Patriot Place Bus Stop",
+    "nearestAirport": "Boston Logan International Airport (BOS)",
+    "emergencyExits": [
+      "Main North Exit Ramp",
+      "Main South Exit Gate"
+    ],
+    "securityCheckpoints": [
+      "Enel Plaza Security Checkpoint",
+      "Gillette Gate Security Checkpoint"
+    ],
+    "fanZones": [
+      "Patriot Place Plaza"
+    ],
+    "merchandiseStores": [
+      "ProShop Team Store",
+      "World Cup Boston Pop-up"
+    ],
+    "chargingStations": [
+      "Enel Charging Pillars Sec 102"
+    ],
+    "wifiAvailability": "GilletteStadiumWiFi",
+    "openingHours": "17:00",
+    "closingHours": "23:30",
+    "contactInformation": "+1-508-543-8200, customerservice@gillettestadium.com",
+    "locationReference": "https://www.google.com/maps/place/Gillette+Stadium/@42.0909,-71.2643",
+    "nearbyHotels": [
+      "Renaissance Boston Patriot Place",
+      "Hilton Garden Inn"
+    ],
+    "nearbyAttractions": [
+      "Patriot Place",
+      "The Hall at Patriot Place"
+    ],
+    "nearbyRestaurants": [
+      "Toby Keith's I Love This Bar",
+      "Capriotti's Sandwich Shop"
+    ],
+    "nearbyHospitals": [
+      "Sturdy Memorial Hospital"
+    ],
+    "nearbyPoliceStation": [
+      "Foxborough Police Department"
+    ],
+    "nearbyPublicTransport": [
+      "MBTA Franklin Line Commuter Rail"
+    ]
+  },
+  {
+    "stadiumId": "att-stadium",
+    "name": "AT&T Stadium",
+    "city": "Dallas (Arlington)",
+    "country": "United States",
+    "capacity": 80000,
+    "latitude": 32.7473,
+    "longitude": -97.0945,
+    "address": "1 AT&T Way, Arlington, TX 76011",
+    "description": "An engineering marvel featuring a retractable roof, massive video display board, and seating expandable to 105,000.",
+    "homeTeam": "Dallas Cowboys",
+    "images": [
+      "public/images/stadiums/att-stadium/hero.jpg",
+      "public/images/stadiums/att-stadium/gallery-1.jpg",
+      "public/images/stadiums/att-stadium/gallery-2.jpg"
+    ],
+    "parking": [
+      "Lot 1",
+      "Lot 4",
+      "Lot 10",
+      "Lot 15"
+    ],
+    "restaurants": [
+      "Miller Lite Club",
+      "Stadium Club Restaurant"
+    ],
+    "foodCourts": [
+      "Concourse Express Grill 100",
+      "Concourse Express Grill 300"
+    ],
+    "washrooms": [
+      "Near Sec 108",
+      "Near Sec 138",
+      "Near Sec 209",
+      "Near Sec 414"
+    ],
+    "medicalCenters": [
+      "First Aid Sec 115",
+      "First Aid Sec 305"
+    ],
+    "gates": [
+      "Entry A (North)",
+      "Entry C (East)",
+      "Entry H (South)",
+      "Entry J (West)"
+    ],
+    "vipEntrances": [
+      "Founder's Club VIP Entrance",
+      "Hall of Fame VIP Entrance"
+    ],
+    "disabledEntrances": [
+      "Entry A Elevators",
+      "Entry H Elevators"
+    ],
+    "accessibleRoutes": [
+      "Concourse ADA Core Ramp"
+    ],
+    "nearestMetro": "CentrePort/DFW Airport Station (TRE)",
+    "nearestBusStop": "Collins St Bus Stop",
+    "nearestAirport": "Dallas/Fort Worth International Airport (DFW)",
+    "emergencyExits": [
+      "North Tunnel Exit",
+      "South Tunnel Exit"
+    ],
+    "securityCheckpoints": [
+      "Entry A security screening",
+      "Entry H security screening"
+    ],
+    "fanZones": [
+      "AT&T Plaza (East Explanada)",
+      "Miller Lite Plaza (West)"
+    ],
+    "merchandiseStores": [
+      "Dallas Cowboys Pro Shop",
+      "Arlington World Cup Store Sec 115"
+    ],
+    "chargingStations": [
+      "AT&T Power Stations Level 2"
+    ],
+    "wifiAvailability": "ATTStadiumFreeWiFi",
+    "openingHours": "17:00",
+    "closingHours": "23:30",
+    "contactInformation": "+1-817-892-4000, guestrelations@dallascowboys.com",
+    "locationReference": "https://www.google.com/maps/place/AT%26T+Stadium/@32.7473,-97.0945",
+    "nearbyHotels": [
+      "Sheraton Arlington Hotel",
+      "Live! by Loews"
+    ],
+    "nearbyAttractions": [
+      "Six Flags Over Texas",
+      "Globe Life Field"
+    ],
+    "nearbyRestaurants": [
+      "Texas Live!",
+      "Mercury Chophouse"
+    ],
+    "nearbyHospitals": [
+      "Arlington Memorial Hospital"
+    ],
+    "nearbyPoliceStation": [
+      "Arlington Police Department North Precinct"
+    ],
+    "nearbyPublicTransport": [
+      "Via Arlington On-Demand Rideshare"
+    ]
+  },
+  {
+    "stadiumId": "nrg-stadium",
+    "name": "NRG Stadium",
+    "city": "Houston",
+    "country": "United States",
+    "capacity": 72220,
+    "latitude": 29.6847,
+    "longitude": -95.4082,
+    "address": "NRG Pkwy, Houston, TX 77054",
+    "description": "Houston's retractable roof stadium, host to major soccer tournaments and the Houston Texans.",
+    "homeTeam": "Houston Texans",
+    "images": [
+      "public/images/stadiums/nrg-stadium/hero.jpg",
+      "public/images/stadiums/nrg-stadium/gallery-1.jpg",
+      "public/images/stadiums/nrg-stadium/gallery-2.jpg"
+    ],
+    "parking": [
+      "Blue Lot",
+      "Yellow Lot",
+      "Red Lot"
+    ],
+    "restaurants": [
+      "Houston Grill House",
+      "Chairman's Club Lounge"
+    ],
+    "foodCourts": [
+      "NRG Concourse Grills 100",
+      "NRG Concourse Grills 300"
+    ],
+    "washrooms": [
+      "Sec 103 WC",
+      "Sec 125 WC",
+      "Sec 318 WC"
+    ],
+    "medicalCenters": [
+      "First Aid Station Sec 113",
+      "First Aid Station Sec 331"
+    ],
+    "gates": [
+      "Amegy Bank Gate (West)",
+      "Bud Light Gate (North)",
+      "Verizon Gate (South)"
+    ],
+    "vipEntrances": [
+      "Executive Club Lobby West",
+      "Executive Club Lobby East"
+    ],
+    "disabledEntrances": [
+      "Amegy Bank Gate Elevators"
+    ],
+    "accessibleRoutes": [
+      "Concourse ADA Core Elevator West"
+    ],
+    "nearestMetro": "Stadium Park / Astrodome MARTA Station",
+    "nearestBusStop": "Fannin South Bus Stop",
+    "nearestAirport": "William P. Hobby Airport (HOU)",
+    "emergencyExits": [
+      "North exit concourse path",
+      "South exit concourse path"
+    ],
+    "securityCheckpoints": [
+      "Bud Light Gate Security Checkpoint",
+      "Verizon Gate Security Checkpoint"
+    ],
+    "fanZones": [
+      "NRG Plaza North"
+    ],
+    "merchandiseStores": [
+      "Houston Texans Team Store",
+      "World Cup Houston Shop Sec 113"
+    ],
+    "chargingStations": [
+      "Reliant Energy Charging Stations"
+    ],
+    "wifiAvailability": "NRG Free Stadium WiFi",
+    "openingHours": "17:00",
+    "closingHours": "23:30",
+    "contactInformation": "+1-832-667-1400, info@nrgpark.com",
+    "locationReference": "https://www.google.com/maps/place/NRG+Stadium/@29.6847,-95.4082",
+    "nearbyHotels": [
+      "Wyndham Houston Medical Center",
+      "Holiday Inn NRG Area"
+    ],
+    "nearbyAttractions": [
+      "Houston Zoo",
+      "Museum District"
+    ],
+    "nearbyRestaurants": [
+      "Pappadeaux Seafood Kitchen",
+      "Pappasito's Cantina"
+    ],
+    "nearbyHospitals": [
+      "Texas Medical Center"
+    ],
+    "nearbyPoliceStation": [
+      "HPD Houston Medical Center substation"
+    ],
+    "nearbyPublicTransport": [
+      "METRORail Red Line"
+    ]
+  },
+  {
+    "stadiumId": "arrowhead-stadium",
+    "name": "Arrowhead Stadium",
+    "city": "Kansas City",
+    "country": "United States",
+    "capacity": 76416,
+    "latitude": 39.0489,
+    "longitude": -94.4839,
+    "address": "1 Arrowhead Dr, Kansas City, MO 64129",
+    "description": "The loudest outdoor stadium in the world, renowned for its incredible matchday atmosphere and tailgating.",
+    "homeTeam": "Kansas City Chiefs",
+    "images": [
+      "public/images/stadiums/arrowhead-stadium/hero.jpg",
+      "public/images/stadiums/arrowhead-stadium/gallery-1.jpg",
+      "public/images/stadiums/arrowhead-stadium/gallery-2.jpg"
+    ],
+    "parking": [
+      "Red Parking Lot",
+      "Gold Parking Lot",
+      "Blue Parking Lot"
+    ],
+    "restaurants": [
+      "Kingdom Club",
+      "Tower Lounge Grill"
+    ],
+    "foodCourts": [
+      "Concourse Express 100",
+      "Concourse Express 300"
+    ],
+    "washrooms": [
+      "Near Sec 102",
+      "Near Sec 136",
+      "Near Sec 218",
+      "Near Sec 305"
+    ],
+    "medicalCenters": [
+      "First Aid Station Sec 114",
+      "First Aid Station Sec 318"
+    ],
+    "gates": [
+      "Gate A (Northwest)",
+      "Gate C (Northeast)",
+      "Gate E (Southeast)",
+      "Gate G (Southwest)"
+    ],
+    "vipEntrances": [
+      "CommunityAmerica VIP Entrance"
+    ],
+    "disabledEntrances": [
+      "Gate A Elevators",
+      "Gate G Elevators"
+    ],
+    "accessibleRoutes": [
+      "ADA Corridor East Core"
+    ],
+    "nearestMetro": "Kansas City Union Station (Transit Connector)",
+    "nearestBusStop": "Blue Ridge Cutoff Bus Stop",
+    "nearestAirport": "Kansas City International Airport (MCI)",
+    "emergencyExits": [
+      "Exit Gate B",
+      "Exit Gate F",
+      "Exit Gate H"
+    ],
+    "securityCheckpoints": [
+      "Gate A security screening",
+      "Gate E security screening"
+    ],
+    "fanZones": [
+      "Ford Fan Zone Plaza"
+    ],
+    "merchandiseStores": [
+      "Chiefs Team Store",
+      "KC World Cup Shop Sec 114"
+    ],
+    "chargingStations": [
+      "T-Mobile Charging Bars Sec 108"
+    ],
+    "wifiAvailability": "Arrowhead Free WiFi",
+    "openingHours": "17:00",
+    "closingHours": "23:30",
+    "contactInformation": "+1-816-920-9300, customerrelations@chiefs.com",
+    "locationReference": "https://www.google.com/maps/place/GEHA+Field+at+Arrowhead+Stadium/@39.0489,-94.4839",
+    "nearbyHotels": [
+      "Four Points by Sheraton Sports Complex",
+      "Best Western Plus"
+    ],
+    "nearbyAttractions": [
+      "Truman Sports Complex",
+      "Kauffman Stadium"
+    ],
+    "nearbyRestaurants": [
+      "LC's Bar-B-Q",
+      "Arthur Bryant's Barbeque"
+    ],
+    "nearbyHospitals": [
+      "Truman Medical Center Lakewood"
+    ],
+    "nearbyPoliceStation": [
+      "KCPD East Patrol Division"
+    ],
+    "nearbyPublicTransport": [
+      "KCATA Bus Route 47"
+    ]
+  },
+  {
+    "stadiumId": "hard-rock-stadium",
+    "name": "Hard Rock Stadium",
+    "city": "Miami (Miami Gardens)",
+    "country": "United States",
+    "capacity": 65326,
+    "latitude": 25.958,
+    "longitude": -80.2389,
+    "address": "347 Don Shula Dr, Miami Gardens, FL 33056",
+    "description": "Miami's premier multi-purpose stadium featuring a partial canopy roof protecting fans from the Florida sun.",
+    "homeTeam": "Miami Dolphins / Inter Miami FC",
+    "images": [
+      "public/images/stadiums/hard-rock-stadium/hero.jpg",
+      "public/images/stadiums/hard-rock-stadium/gallery-1.jpg",
+      "public/images/stadiums/hard-rock-stadium/gallery-2.jpg"
+    ],
+    "parking": [
+      "Lot 1 (North)",
+      "Lot 4 (East)",
+      "Lot 8 (South)",
+      "Lot 14 (West)"
+    ],
+    "restaurants": [
+      "The Nine Host Club",
+      "72 Club Grill"
+    ],
+    "foodCourts": [
+      "Plaza Level Concessions",
+      "Upper Concourse Grills"
+    ],
+    "washrooms": [
+      "Near Sec 108",
+      "Near Sec 122",
+      "Near Sec 240",
+      "Near Sec 315"
+    ],
+    "medicalCenters": [
+      "First Aid Plaza Level",
+      "First Aid Sec 342"
+    ],
+    "gates": [
+      "Gate A (North)",
+      "Gate B (East)",
+      "Gate C (South)",
+      "Gate D (West)"
+    ],
+    "vipEntrances": [
+      "72 Club VIP Entrance",
+      "Executive Suites Lobby"
+    ],
+    "disabledEntrances": [
+      "Gate A ADA Ramps",
+      "Gate C Elevators"
+    ],
+    "accessibleRoutes": [
+      "East Ramp ADA Corridor"
+    ],
+    "nearestMetro": "Golden Glades Station (Tri-Rail)",
+    "nearestBusStop": "Miami Gardens Bus Loop",
+    "nearestAirport": "Miami International Airport (MIA)",
+    "emergencyExits": [
+      "Exit Corridor North",
+      "Exit Corridor South"
+    ],
+    "securityCheckpoints": [
+      "Gate A security screening",
+      "Gate C security screening"
+    ],
+    "fanZones": [
+      "Fountain Plaza Fan Zone",
+      "Dolphins Plaza"
+    ],
+    "merchandiseStores": [
+      "Dolphins Team Store",
+      "World Cup Miami Kiosk Sec 108"
+    ],
+    "chargingStations": [
+      "FPL Solar Charging Tree"
+    ],
+    "wifiAvailability": "HardRockStadiumWiFi",
+    "openingHours": "17:00",
+    "closingHours": "23:30",
+    "contactInformation": "+1-305-943-8000, guestservices@hardrockstadium.com",
+    "locationReference": "https://www.google.com/maps/place/Hard+Rock+Stadium/@25.9580,-80.2389",
+    "nearbyHotels": [
+      "Stadium Hotel",
+      "Seminole Hard Rock Hotel & Casino"
+    ],
+    "nearbyAttractions": [
+      "Calder Casino",
+      "Hard Rock Live"
+    ],
+    "nearbyRestaurants": [
+      "Shula's Steak House",
+      "Duff's Sports Grill"
+    ],
+    "nearbyHospitals": [
+      "Jackson North Medical Center"
+    ],
+    "nearbyPoliceStation": [
+      "Miami Gardens Police Department"
+    ],
+    "nearbyPublicTransport": [
+      "Miami-Dade Transit Bus Route 297"
+    ]
+  },
+  {
+    "stadiumId": "lincoln-financial-field",
+    "name": "Lincoln Financial Field",
+    "city": "Philadelphia",
+    "country": "United States",
+    "capacity": 67594,
+    "latitude": 39.9008,
+    "longitude": -75.1675,
+    "address": "1 Lincoln Financial Field Way, Philadelphia, PA 19148",
+    "description": "The Linc - Philadelphia's premier outdoor stadium located in the South Philadelphia Sports Complex.",
+    "homeTeam": "Philadelphia Eagles",
+    "images": [
+      "public/images/stadiums/lincoln-financial-field/hero.jpg",
+      "public/images/stadiums/lincoln-financial-field/gallery-1.jpg",
+      "public/images/stadiums/lincoln-financial-field/gallery-2.jpg"
+    ],
+    "parking": [
+      "Lot J",
+      "Lot K",
+      "Lot M"
+    ],
+    "restaurants": [
+      "Tork Club Lounge",
+      "Eagles Club Grills"
+    ],
+    "foodCourts": [
+      "Concourse Food Court Level 1"
+    ],
+    "washrooms": [
+      "Sec 102 WC",
+      "Sec 128 WC",
+      "Sec 204 WC"
+    ],
+    "medicalCenters": [
+      "First Aid Station Sec 114",
+      "First Aid Station Sec 230"
+    ],
+    "gates": [
+      "Eagles Gate (North)",
+      "Lincoln Financial Gate (South)",
+      "11th Street Gate (West)"
+    ],
+    "vipEntrances": [
+      "Tork Club East VIP Entrance",
+      "Tork Club West VIP Entrance"
+    ],
+    "disabledEntrances": [
+      "Eagles Gate Elevators"
+    ],
+    "accessibleRoutes": [
+      "ADA South Ramp Core"
+    ],
+    "nearestMetro": "NRG Station (Broad Street Line)",
+    "nearestBusStop": "Pattison Ave Bus Stop",
+    "nearestAirport": "Philadelphia International Airport (PHL)",
+    "emergencyExits": [
+      "Exit North Ramp",
+      "Exit South Corridor"
+    ],
+    "securityCheckpoints": [
+      "Eagles Gate security checkpoint",
+      "Lincoln Gate security checkpoint"
+    ],
+    "fanZones": [
+      "Headhouse Plaza Fan Village"
+    ],
+    "merchandiseStores": [
+      "Eagles Pro Shop",
+      "World Cup Philly Shop Sec 114"
+    ],
+    "chargingStations": [
+      "PECO Energy Charging Stations"
+    ],
+    "wifiAvailability": "LincFreeWifi",
+    "openingHours": "17:00",
+    "closingHours": "23:30",
+    "contactInformation": "+1-215-463-5500, guestservices@lincolnfinancialfield.com",
+    "locationReference": "https://www.google.com/maps/place/Lincoln+Financial+Field/@39.9008,-75.1675",
+    "nearbyHotels": [
+      "Live! Casino & Hotel Philadelphia",
+      "Courtyard by Marriott"
+    ],
+    "nearbyAttractions": [
+      "Philadelphia Museum of Art",
+      "Citizens Bank Park"
+    ],
+    "nearbyRestaurants": [
+      "Chickie's & Pete's",
+      "Xfinity Live! Philadelphia"
+    ],
+    "nearbyHospitals": [
+      "Methodist Hospital Jefferson Health"
+    ],
+    "nearbyPoliceStation": [
+      "Philadelphia Police South Division Precinct"
+    ],
+    "nearbyPublicTransport": [
+      "SEPTA Broad Street Line"
+    ]
+  },
+  {
+    "stadiumId": "lumen-field",
+    "name": "Lumen Field",
+    "city": "Seattle",
+    "country": "United States",
+    "capacity": 68740,
+    "latitude": 47.5952,
+    "longitude": -122.3316,
+    "address": "800 Occidental Ave S, Seattle, WA 98134",
+    "description": "Located in Seattle's SoDo neighborhood, famous for its roof arches and incredible downtown skyline views.",
+    "homeTeam": "Seattle Sounders FC",
+    "images": [
+      "public/images/stadiums/lumen-field/hero.jpg",
+      "public/images/stadiums/lumen-field/gallery-1.jpg",
+      "public/images/stadiums/lumen-field/gallery-2.jpg"
+    ],
+    "parking": [
+      "Lumen Field Event Center Garage",
+      "North Lot"
+    ],
+    "restaurants": [
+      "Chinatown International Buffet",
+      "Toyota Fan Deck Club"
+    ],
+    "foodCourts": [
+      "North Plaza Food Hub",
+      "Concourse Grills Level 2"
+    ],
+    "washrooms": [
+      "Near Sec 108",
+      "Near Sec 132",
+      "Near Sec 305",
+      "Near Sec 324"
+    ],
+    "medicalCenters": [
+      "First Aid Room Sec 119",
+      "First Aid Room Sec 321"
+    ],
+    "gates": [
+      "North Gate",
+      "West Field Gate",
+      "South Gate",
+      "CenturyLink Plaza Gate"
+    ],
+    "vipEntrances": [
+      "Suite Entrance North",
+      "Suite Entrance South"
+    ],
+    "disabledEntrances": [
+      "West Field Gate Elevators"
+    ],
+    "accessibleRoutes": [
+      "North Plaza Rampway",
+      "West Core Elevators"
+    ],
+    "nearestMetro": "International District/Chinatown Light Rail Station",
+    "nearestBusStop": "Occidental Ave Bus Stop",
+    "nearestAirport": "Seattle-Tacoma International Airport (SEA)",
+    "emergencyExits": [
+      "Main North Exit Way",
+      "Main South Exit Tunnel"
+    ],
+    "securityCheckpoints": [
+      "North Gate security hub",
+      "South Gate security hub"
+    ],
+    "fanZones": [
+      "Muckleshoot Plaza Fan Village"
+    ],
+    "merchandiseStores": [
+      "Sounders FC Pro Shop",
+      "Seattle World Cup Pop-up"
+    ],
+    "chargingStations": [
+      "Lumen Energy Charging Stations"
+    ],
+    "wifiAvailability": "LumenFieldFreeWifi",
+    "openingHours": "17:00",
+    "closingHours": "23:30",
+    "contactInformation": "+1-206-381-7555, guestservices@lumenfield.com",
+    "locationReference": "https://www.google.com/maps/place/Lumen+Field/@47.5952,-122.3316",
+    "nearbyHotels": [
+      "Silver Cloud Hotel Seattle Stadium",
+      "The Embassy Suites"
+    ],
+    "nearbyAttractions": [
+      "Space Needle",
+      "Pike Place Market"
+    ],
+    "nearbyRestaurants": [
+      "Taylor Shellfish Oyster Bar",
+      "Elysian Fields"
+    ],
+    "nearbyHospitals": [
+      "Harborview Medical Center"
+    ],
+    "nearbyPoliceStation": [
+      "Seattle Police Department West Precinct"
+    ],
+    "nearbyPublicTransport": [
+      "Sound Transit Link Light Rail"
+    ]
+  },
+  {
+    "stadiumId": "levis-stadium",
+    "name": "Levi's Stadium",
+    "city": "San Francisco (Santa Clara)",
+    "country": "United States",
+    "capacity": 68500,
+    "latitude": 37.4033,
+    "longitude": -121.9698,
+    "address": "4900 Marie P DeBartolo Way, Santa Clara, CA 95054",
+    "description": "One of the most high-tech, eco-friendly stadium projects in the world, located in Silicon Valley.",
+    "homeTeam": "San Francisco 49ers",
+    "images": [
+      "public/images/stadiums/levis-stadium/hero.jpg",
+      "public/images/stadiums/levis-stadium/gallery-1.jpg",
+      "public/images/stadiums/levis-stadium/gallery-2.jpg"
+    ],
+    "parking": [
+      "Red Lot 1",
+      "Green Lot 4",
+      "Blue Lot A"
+    ],
+    "restaurants": [
+      "Bourbon Steak by Michael Mina",
+      "Brophy Club Grill"
+    ],
+    "foodCourts": [
+      "Yahoo Food Plaza Level 1"
+    ],
+    "washrooms": [
+      "Sec 102 WC",
+      "Sec 125 WC",
+      "Sec 308 WC"
+    ],
+    "medicalCenters": [
+      "First Aid Room Sec 112",
+      "First Aid Room Sec 312"
+    ],
+    "gates": [
+      "Intel Gate A (Northwest)",
+      "Toyota Gate F (South)",
+      "Gate C (East)"
+    ],
+    "vipEntrances": [
+      "United Club Lobby East",
+      "SAP Club Lobby West"
+    ],
+    "disabledEntrances": [
+      "Intel Gate A Elevators"
+    ],
+    "accessibleRoutes": [
+      "ADA Core Elevator Tower West"
+    ],
+    "nearestMetro": "Great America Light Rail Station (VTA)",
+    "nearestBusStop": "Tasman Dr Bus Stop",
+    "nearestAirport": "San Jose Mineta International Airport (SJC)",
+    "emergencyExits": [
+      "North exit ramps",
+      "South exit ramps"
+    ],
+    "securityCheckpoints": [
+      "Intel Gate security checkpoints",
+      "Toyota Gate security checkpoints"
+    ],
+    "fanZones": [
+      "Toyota Plaza Fan Village"
+    ],
+    "merchandiseStores": [
+      "49ers Team Store",
+      "World Cup SF Bay Area Kiosk"
+    ],
+    "chargingStations": [
+      "NRG Solar Charging Hubs"
+    ],
+    "wifiAvailability": "LevisStadiumFreeWiFi",
+    "openingHours": "17:00",
+    "closingHours": "23:30",
+    "contactInformation": "+1-408-562-4949, guestservices@levisstadium.com",
+    "locationReference": "https://www.google.com/maps/place/Levi's+Stadium/@37.4033,-121.9698",
+    "nearbyHotels": [
+      "Hilton Santa Clara",
+      "Hyatt Regency Santa Clara"
+    ],
+    "nearbyAttractions": [
+      "California's Great America",
+      "Intel Museum"
+    ],
+    "nearbyRestaurants": [
+      "Pedro's Restaurant & Cantina",
+      "Faultline Brewing Company"
+    ],
+    "nearbyHospitals": [
+      "Kaiser Permanente Santa Clara Medical Center"
+    ],
+    "nearbyPoliceStation": [
+      "Santa Clara Police Department North Station"
+    ],
+    "nearbyPublicTransport": [
+      "VTA Light Rail Mountain View - Winchester"
+    ]
+  },
+  {
+    "stadiumId": "estadio-bbva",
+    "name": "Estadio BBVA",
+    "city": "Monterrey (Guadalupe)",
+    "country": "Mexico",
+    "capacity": 53500,
+    "latitude": 25.6692,
+    "longitude": -100.2447,
+    "address": "Av. Pablo Livas 2011, La Pastora, 67140 Guadalupe, N.L.",
+    "description": "Nicknamed 'El Gigante de Acero' (The Steel Giant), famous for its spectacular views of the Cerro de la Silla mountain.",
+    "homeTeam": "C.F. Monterrey",
+    "images": [
+      "public/images/stadiums/estadio-bbva/hero.jpg",
+      "public/images/stadiums/estadio-bbva/gallery-1.jpg",
+      "public/images/stadiums/estadio-bbva/gallery-2.jpg"
+    ],
+    "parking": [
+      "Estacionamiento Multi-nivel Norte",
+      "Estacionamiento E1",
+      "Estacionamiento E2"
+    ],
+    "restaurants": [
+      "Restaurante Azul y Blanco",
+      "Club Lounge BBVA"
+    ],
+    "foodCourts": [
+      "Plaza de Comida Rápida Nivel Consecuto"
+    ],
+    "washrooms": [
+      "Sección 104 Baños",
+      "Sección 132 Baños",
+      "Nivel 300 Baños"
+    ],
+    "medicalCenters": [
+      "Módulo Médico Puerta 1",
+      "Módulo de Urgencias Sección 220"
+    ],
+    "gates": [
+      "Puerta 1 (Principal)",
+      "Puerta 4 (Este)",
+      "Puerta 8 (Sur)",
+      "Puerta 12 (Oeste)"
+    ],
+    "vipEntrances": [
+      "Acceso Clubes VIP Norte",
+      "Acceso Clubes VIP Sur"
+    ],
+    "disabledEntrances": [
+      "Puerta 1 Acceso Elevador Especial"
+    ],
+    "accessibleRoutes": [
+      "Rampa ADA Consecuto Sur"
+    ],
+    "nearestMetro": "Estación Exposición (Metrorrey Línea 1)",
+    "nearestBusStop": "Parada de Autobuses Av. Pablo Livas",
+    "nearestAirport": "Aeropuerto Internacional de Monterrey (MTY)",
+    "emergencyExits": [
+      "Túnel de Emergencia Poniente",
+      "Salida de Emergencia Oriente"
+    ],
+    "securityCheckpoints": [
+      "Filtro de Seguridad Principal Puerta 1",
+      "Filtro Acceso General Este"
+    ],
+    "fanZones": [
+      "Explanada BBVA Puerta 1"
+    ],
+    "merchandiseStores": [
+      "Tienda Oficial Rayados Megastore",
+      "FIFA Store Monterrey Explanada"
+    ],
+    "chargingStations": [
+      "Kiosko de Recarga de Baterías Puerta 1"
+    ],
+    "wifiAvailability": "EstadioBBVAGratis",
+    "openingHours": "17:00",
+    "closingHours": "23:30",
+    "contactInformation": "+52-81-8127-1500, Rayados@rayados.com",
+    "locationReference": "https://www.google.com/maps/place/Estadio+BBVA/@25.6692,-100.2447",
+    "nearbyHotels": [
+      "Four Points by Sheraton Galerias",
+      "Crowne Plaza Monterrey"
+    ],
+    "nearbyAttractions": [
+      "Cerro de la Silla",
+      "Parque La Pastora"
+    ],
+    "nearbyRestaurants": [
+      "El Gaucho",
+      "Cabrito El Rey"
+    ],
+    "nearbyHospitals": [
+      "Hospital Christus Muguerza Alta Especialidad"
+    ],
+    "nearbyPoliceStation": [
+      "Módulo de Policía Guadalupe"
+    ],
+    "nearbyPublicTransport": [
+      "Metrorrey Línea 1"
+    ]
+  },
+  {
+    "stadiumId": "estadio-akron",
+    "name": "Estadio Akron",
+    "city": "Guadalajara (Zapopan)",
+    "country": "Mexico",
+    "capacity": 48071,
+    "latitude": 20.6817,
+    "longitude": -103.4628,
+    "address": "Circuito J. B. Jorge Vergara Madrigal 777, El Bajio, 45019 Zapopan, Jal.",
+    "description": "An eco-friendly stadium built like a volcano, topped by a white cloud-like roof structures.",
+    "homeTeam": "C.D. Guadalajara (Chivas)",
+    "images": [
+      "public/images/stadiums/estadio-akron/hero.jpg",
+      "public/images/stadiums/estadio-akron/gallery-1.jpg",
+      "public/images/stadiums/estadio-akron/gallery-2.jpg"
+    ],
+    "parking": [
+      "Estacionamiento General Chivas E1",
+      "Estacionamiento E3",
+      "Estacionamiento VIP"
+    ],
+    "restaurants": [
+      "Restaurante La Chiva de Oro",
+      "Club Lounge Akron"
+    ],
+    "foodCourts": [
+      "Plaza de Alimentos Nivel 100",
+      "Food Court Concourse Sur"
+    ],
+    "washrooms": [
+      "Túnel 2 Baños",
+      "Túnel 15 Baños",
+      "Nivel 300 Baños"
+    ],
+    "medicalCenters": [
+      "Centro Médico Puerta 2",
+      "Primeros Auxilios Sección 218"
+    ],
+    "gates": [
+      "Puerta 1 (Acceso Principal)",
+      "Puerta 3 (Norte)",
+      "Puerta 7 (Sur)"
+    ],
+    "vipEntrances": [
+      "Acceso Preferente Palcos Oriente",
+      "Acceso Preferente Palcos Poniente"
+    ],
+    "disabledEntrances": [
+      "Rampa Puerta 1 Acceso Especial"
+    ],
+    "accessibleRoutes": [
+      "Rampa General Acceso ADA"
+    ],
+    "nearestMetro": "Estación Periférico Sur (Mi Tren)",
+    "nearestBusStop": "Parada de Autobús Circuito Akron",
+    "nearestAirport": "Aeropuerto Internacional de Guadalajara (GDL)",
+    "emergencyExits": [
+      "Túnel de Salida de Emergencia Sur",
+      "Túnel Norte Emergencia"
+    ],
+    "securityCheckpoints": [
+      "Filtro de Seguridad Principal Acceso Akron",
+      "Filtro Acceso General Norte"
+    ],
+    "fanZones": [
+      "Explanada Principal Akron"
+    ],
+    "merchandiseStores": [
+      "Tienda Oficial Chivas Megastore",
+      "FIFA Store Guadalajara Explanada"
+    ],
+    "chargingStations": [
+      "Módulo de Energía Akron Puerta 1"
+    ],
+    "wifiAvailability": "EstadioAkronFreeWifi",
+    "openingHours": "17:00",
+    "closingHours": "23:30",
+    "contactInformation": "+52-33-3777-5700, contacto@estadioakron.mx",
+    "locationReference": "https://www.google.com/maps/place/Estadio+Akron/@20.6817,-103.4628",
+    "nearbyHotels": [
+      "Hyatt Regency Andares Guadalajara",
+      "Hard Rock Hotel"
+    ],
+    "nearbyAttractions": [
+      "Zapopan Centro",
+      "Bosque Los Colomos"
+    ],
+    "nearbyRestaurants": [
+      "Santo Coyote",
+      "La Tequila"
+    ],
+    "nearbyHospitals": [
+      "Hospital Real San José"
+    ],
+    "nearbyPoliceStation": [
+      "Módulo de Seguridad Zapopan Bajío"
+    ],
+    "nearbyPublicTransport": [
+      "Mi Transporte Ruta C-102"
+    ]
+  }
+]
