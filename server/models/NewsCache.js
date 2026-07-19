@@ -15,7 +15,7 @@ const newsCacheSchema = new mongoose.Schema(
     },
     query: { type: String, trim: true, index: true },
     publishedAt: { type: Date },
-    cachedAt: { type: Date, default: Date.now, index: true },
+    cachedAt: { type: Date, default: Date.now },
   },
   { timestamps: false, versionKey: false }
 );

@@ -22,7 +22,7 @@ const weatherCacheSchema = new mongoose.Schema(
     lat: { type: Number },
     lon: { type: Number },
     apiTimestamp: { type: Date },
-    cachedAt: { type: Date, default: Date.now, index: true },
+    cachedAt: { type: Date, default: Date.now },
   },
   { timestamps: false, versionKey: false }
 );
